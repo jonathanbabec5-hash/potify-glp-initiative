@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101915">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="description" content="Follow the public research and try a simulated QR checkout for Virginia’s future licensed cannabis retailers.">
+  <meta property="og:title" content="GreenLight Pay · Give Virginia’s shops another way to get paid">
+  <meta property="og:description" content="A public research project and QR checkout demo for Virginia’s future licensed cannabis retailers.">
+  <meta property="og:image" content="https://potify-greenlight-pay.wile-e-coyot.chatgpt.site/assets/storefront.webp">
+  <link rel="canonical" href="https://potify-greenlight-pay.wile-e-coyot.chatgpt.site/">
+  <link rel="icon" href="assets/mark.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="demo.js"></script>
+  <title>POTIFY · Project GreenLight Pay Initiative</title>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell site-bar">
+      <a class="brand" href="./" aria-label="GreenLight Pay home">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span><strong>GreenLight Pay</strong><small>A POTIFY public initiative</small></span>
+      </a>
+      <nav aria-label="Main">
+        <a href="#virginia">Virginia</a>
+        <a href="#demo">Checkout demo</a>
+        <a href="#support">Support the work <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/storefront.webp" width="1672" height="941" alt="" fetchpriority="high">
+      <div class="shell hero-content">
+        <p class="eyebrow"><span class="signal" aria-hidden="true"></span> Virginia retail payment research</p>
+        <h1 id="hero-title">Give Virginia’s shops<br class="wide-break"> another way <em>to get paid.</em></h1>
+        <p class="hero-intro">When Virginia’s licensed cannabis shops open, checkout should be as simple as scanning a code. We’re building and testing what that could look like, in public.</p>
+        <div class="actions">
+          <a class="button primary" href="#support">Support the work <span aria-hidden="true">↗</span></a>
+          <a class="button secondary" href="#demo">Try a demo checkout <span aria-hidden="true">↓</span></a>
+        </div>
+        <p class="hero-note">An initiative from THE Eidi <span aria-hidden="true">·</span> Presented by POTIFY</p>
+      </div>
+    </section>
+
+    <section class="status-wrap" aria-label="Project status">
+      <div class="shell status-grid">
+        <div><span>Virginia retail target</span><strong><time datetime="2027-07-01">July 1, 2027</time></strong></div>
+        <div><span>Checkout</span><strong>Demo available</strong></div>
+        <div><span>Research funding</span><strong>Contributions pending</strong></div>
+      </div>
+    </section>
+
+    <section class="shell split section" id="virginia" aria-labelledby="va-title">
+      <div class="section-intro">
+        <p class="eyebrow">The Virginia story</p>
+        <h2 id="va-title">Opening day is only the beginning.</h2>
+        <p>A retail license can open a shop. Taking a digital payment takes a provider willing to work with that licensed business. This project starts at that counter.</p>
+      </div>
+      <div class="evidence-list">
+        <article>
+          <p class="eyebrow">July 2027 · State timeline</p>
+          <h3>Virginia is building a licensed retail market.</h3>
+          <p>The Cannabis Control Authority lists July 1, 2027 as the start of adult-use retail sales. The published schedule anticipates finalized rules in December 2026 and initial licensing milestones in spring 2027.</p>
+          <a href="https://cca.virginia.gov/retailmarijuanamarket">Read the CCA timeline <span aria-hidden="true">↗</span></a>
+        </article>
+        <article>
+          <p class="eyebrow">State law · Banking</p>
+          <h3>Virginia law gives banks room to serve licensed shops.</h3>
+          <p>Virginia Code § 6.2-108 permits banks and credit unions to provide services including payment processing, subject to applicable state and federal law. Institutions choose whether to participate and conduct due diligence.</p>
+          <a href="https://law.lis.virginia.gov/vacode/title6.2/chapter/section6.2-108/">Read Virginia Code § 6.2-108 <span aria-hidden="true">↗</span></a>
+        </article>
+        <article>
+          <p class="eyebrow">Federal guidance · Due diligence</p>
+          <h3>Payment providers have obligations of their own.</h3>
+          <p>FinCEN’s guidance covers due diligence and reporting for financial institutions serving marijuana-related businesses. We’re looking for written approval of the exact Virginia use case from a provider and its banking partner.</p>
+          <a href="https://www.fincen.gov/resources/statutes-regulations/guidance/bsa-expectations-regarding-marijuana-related-businesses">Read FinCEN’s guidance <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="demo-section" id="demo" aria-labelledby="demo-title">
+      <div class="shell split section demo-layout">
+        <div class="section-intro">
+          <p class="eyebrow">Interactive demo</p>
+          <h2 id="demo-title">See what checkout could feel like.</h2>
+          <p>Scan the QR with another device, or open the sample checkout on this one. Follow a fictional order from review to the customer receipt and merchant record.</p>
+          <ol class="flow">
+            <li><strong>Scan.</strong> A QR opens the checkout session.</li>
+            <li><strong>Confirm.</strong> See the store and total before authorizing.</li>
+            <li><strong>Keep a receipt.</strong> The customer sees their own receipt and the merchant sees their store’s payment record.</li>
+          </ol>
+          <p class="hint">This demo runs in your browser using sample data. It collects no account details and moves no money.</p>
+        </div>
+
+        <div class="demo-card" aria-label="Simulated checkout">
+          <div class="demo-card-head"><span>GreenLight Pay</span><span class="demo-badge">Simulation</span></div>
+          <div class="demo-body" data-demo-step="qr">
+            <p class="eyebrow">Sample order</p>
+            <h3>Ready to scan</h3>
+            <img class="qr" src="assets/demo-qr.png" width="220" height="220" alt="QR code for the sample GreenLight Pay checkout">
+            <button class="button primary full" type="button" data-next="review">Open sample checkout <span aria-hidden="true">→</span></button>
+            <noscript><p>Enable JavaScript to use the interactive demo. The checkout steps are described beside it.</p></noscript>
+          </div>
+          <div class="demo-body" data-demo-step="review" hidden>
+            <p class="eyebrow">Sample order</p>
+            <h3 tabindex="-1">Review your total</h3>
+            <dl class="receipt-list">
+              <div><dt>Merchant</dt><dd>Virginia Demo Shop</dd></div>
+              <div><dt>Total</dt><dd>$42.50</dd></div>
+            </dl>
+            <button class="button primary full" type="button" data-next="receipt">Simulate payment <span aria-hidden="true">→</span></button>
+            <button class="quiet-button" type="button" data-next="qr">Cancel sample checkout</button>
+          </div>
+          <div class="demo-body" data-demo-step="receipt" hidden>
+            <p class="eyebrow">Sample receipt</p>
+            <h3 tabindex="-1">Demo payment approved</h3>
+            <div class="receipt-views" role="group" aria-label="Sample record view">
+              <button type="button" data-receipt-view="customer" aria-pressed="true" aria-controls="customer-record">Customer</button>
+              <button type="button" data-receipt-view="merchant" aria-pressed="false" aria-controls="merchant-record">Merchant</button>
+            </div>
+            <div id="customer-record" data-record="customer">
+              <dl class="receipt-list">
+                <div><dt>Merchant</dt><dd>Virginia Demo Shop</dd></div>
+                <div><dt>Total approved</dt><dd>$42.50</dd></div>
+                <div><dt>Receipt reference</dt><dd>DEMO-0001</dd></div>
+              </dl>
+            </div>
+            <div id="merchant-record" data-record="merchant" hidden>
+              <dl class="receipt-list">
+                <div><dt>Order</dt><dd>DEMO-0001</dd></div>
+                <div><dt>Authorized</dt><dd>$42.50</dd></div>
+                <div><dt>Provider reference</dt><dd>TEST-001</dd></div>
+                <div><dt>Settlement</dt><dd>Pending in this example</dd></div>
+              </dl>
+            </div>
+            <details class="receipt-proof">
+              <summary>View sample verification record</summary>
+              <dl class="receipt-list">
+                <div><dt>Private ledger entry</dt><dd>DEMO-000042</dd></div>
+                <div class="hash-row"><dt>Sample SHA-256 fingerprint</dt><dd><code>d2f6b8ba85909f2dba63075944bb82b57df95ff8e57a386383b42666c73aa627</code></dd></div>
+              </dl>
+              <p class="demo-note">This example has an internal ledger entry. No public-chain transaction or block was created.</p>
+            </details>
+            <button class="quiet-button" type="button" data-next="qr">Run the demo again</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="shell split section" id="build" aria-labelledby="build-title">
+      <div class="section-intro">
+        <p class="eyebrow">Public build log</p>
+        <h2 id="build-title">Follow the work from the first test.</h2>
+        <p>We’ll publish the decisions, the evidence behind them, and what changed when we tested the idea.</p>
+      </div>
+      <div class="evidence-list build-list">
+        <article>
+          <p class="eyebrow">Nov 13, 2026 · Published</p>
+          <h3>Virginia research and the first public simulation</h3>
+          <p>We traced the retail timeline and banking rules to primary sources and built a sample checkout that anyone can try.</p>
+        </article>
+        <article>
+          <p class="eyebrow">In design</p>
+          <h3>A private receipt and portable payment integration</h3>
+            <p>The proposed QR carries a short-lived checkout reference. A verified provider would handle authorization and settlement. Customers and their merchants would see their own records, with provider and legally required access where applicable. Personal data stays off public chains.</p>
+        </article>
+        <article>
+          <p class="eyebrow">Next milestone</p>
+          <h3>Evidence from merchants and providers</h3>
+          <p>We’ll ask merchants about checkout delays, pricing and refunds, and ask providers to document what they can support in Virginia. A pilot depends on written approval, licensed participants, and successful testing.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="support-section" id="support" aria-labelledby="support-title">
+      <div class="shell section">
+        <p class="eyebrow"><span class="signal" aria-hidden="true"></span> Get involved</p>
+        <h2 id="support-title">Help build what comes next.</h2>
+        <p class="support-intro">Help us document what small shops need, test what happens after a scan, and make the findings available to everyone.</p>
+        <div class="support-grid">
+          <article>
+            <h3>Back the research</h3>
+            <p>Support would fund Virginia policy research, merchant interviews, accessible demos, and public findings. When contributions open, the recipient, payment link, and use of funds will appear here.</p>
+            <a href="https://x.com/potify_project">Follow funding updates on X <span aria-hidden="true">↗</span></a>
+          </article>
+          <article>
+            <h3>Help test or build</h3>
+            <p>Virginia merchants, payments providers, and researchers can share what they’d want a pilot to prove or offer a relevant introduction.</p>
+            <a href="https://x.com/potify_project">Contact @potify_project <span aria-hidden="true">↗</span></a>
+          </article>
+          <article>
+            <h3>Apply to review independently</h3>
+            <p>The proposed independent House would review the evidence and disclose conflicts. Candidates need relevant experience, independence from the work, and third-party verification before appointment.</p>
+            <a href="https://x.com/potify_project">Ask about House review at @potify_project <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+        <p class="disclosure">GreenLight Pay is early-stage payment research. The initiative has separate finances and governance from the $POTIFY token. This page does not accept payments or offer investments.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <a href="https://potify-first-cycle.wile-e-coyot.chatgpt.site/#offer">Back to The First Cycle <span aria-hidden="true">↗</span></a>
+      <span>Seed <b>→</b> Soil <b>→</b> Solana</span>
+    </div>
+  </footer>
+</body>
+</html>

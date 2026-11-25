@@ -1,0 +1,8 @@
+{
+  "name": "potify-glp-initiative",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "check:public": "node --check public/demo.js"
+  }
+}
