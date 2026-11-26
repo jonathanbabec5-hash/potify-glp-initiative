@@ -2,6 +2,14 @@
 
 [Complete repository directory tree](docs/DIRECTORY.md)
 
+## What would a cashier say the demo missed?
+
+A checkout can look convincing from three feet away while asking the wrong person to make the next decision. Green Light Pay Initiative uses a shared fictional receipt so a cashier, a customer and an operator can describe the same moment in their own words.
+
+Step through the [demo controls](public/demo.js) and the [research microsite source](public/index.html). The receipt views give the interviewer a concrete screen to discuss. The dated overview is research context; it does not establish current provider approval or a live payment service.
+
+Name one moment in the fictional checkout and the role that would need clearer information. No customer records or payment details are needed. Green Light Pay keeps its own finances, contracts and governance; a research response is not an endorsement.
+
 **Public microsite source.** Recruit operators who can identify concrete friction at the counter.
 
 ### Setup and usage
