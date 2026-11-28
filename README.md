@@ -1,5 +1,13 @@
 # Green Light Pay Initiative
 
+## Find your way in
+
+| If you are… | Start here | Try this |
+| --- | --- | --- |
+| A cashier or operator | [Explore the microsite](public/index.html) | Identify one unclear moment in the fictional checkout. |
+| A researcher | [Review the demo controls](public/demo.js) | Compare how the different receipt views are presented. |
+| A developer | [Open the repository tree](docs/DIRECTORY.md) | Find the public microsite source and context. |
+
 [Complete repository directory tree](docs/DIRECTORY.md)
 
 ## What would a cashier say the demo missed?
